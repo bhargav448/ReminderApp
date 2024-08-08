@@ -1,0 +1,29 @@
+name: reminder_app
+description: A simple reminder app using Flutter with default notification sounds.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^12.0.0  # Package for local notifications
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # If you want to add assets in the future, uncomment and add them here:
+  # assets:
+  #   - assets/sound.mp3
+
+  # If you plan to add custom fonts, declare them here:
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
